@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exemplo Simples</title>
+    <!-- Inclui o jQuery da internet -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        // Espera a página carregar
+        $(document).ready(function() {
+        // Quando o botão for clicado
+        $("#meuBotao").click(function() {
+            // Muda o texto do botão
+            $(this).text("Você clicou!");
+        });
+        });
+    </script>
+    </head>
+    <body>
+    <!-- Um botão com o id "meuBotao" -->
+    <button id="meuBotao">Clique em mim!</button>
+</body>
+</html>
